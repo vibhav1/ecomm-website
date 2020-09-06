@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+*{
+  margin: 0%;
+  padding: 0%;
+  
+  box-sizing: border-box;
+  outline: none;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+  background: white;
+}
+
+.wrapper{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  max-width: 350px;
+  width: 90%;
+  background: #FFFF99;
+  padding: 25px;
+  border-radius: 5px;
+  box-shadow: 4px 4px 2px rgba(254,236,164,1); 
+}
+
+.wrapper h2{
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #332902;
+}
+
+.wrapper .input_field{
+  margin-bottom: 10px;
+}
+
+.wrapper .input_field input[type="text"],
+.wrapper textarea{
+  border: 1px solid #e0e0e0;
+  width: 100%;
+  padding: 10px;
+}
+
+.wrapper textarea{
+  resize: none;
+  height: 80px;
+}
+
+.wrapper .btn1 input[type="submit"]{
+  border: 0px;
+  margin-top: 15px;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  background: #fece0c;
+  color: #332902;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bold;
+  border-radius: 0px;
+  cursor: pointer;
+}
+
+#error_message{
+  margin-bottom: 20px;
+  background: #fe8b8e;
+  padding: 0px;
+  text-align: center;
+  font-size: 14px;
+  transition: all 0.5s ease;
+}
+#navBar{
+  background-color:#232F3E;
+  height:100px;
+  color:white
+}
+#topHalf{
+  height:50px;
+}
+#bottomHalf{
+  height:50px
+}
+#logo{
+  height:100px;
+  position:absolute;
+  top:25px;
+  padding-top: 25px;
+  
+}
+#logoWrapper{
+  margin-bottom:20px;
+  display:inline-block;
+  position:relative;
+  width:150px;
+  
+}
+#backToSchool{
+  height:50px;
+  float:right;
+  margin-right:20px
+  
+}
+
+#department{
+  font-size:25px;
+  padding:10px;
+  margin-left:30px;
+  font-weight:bold;
+  display:inline-block;
+  vertical-align:top;
+  margin-top:10px
+}
+#sections{
+  display:inline-block
+}
+.section{
+  display:inline-block;
+  vertical-align:top;
+  font-size:15px;
+  margin-top:25px;
+  margin-left:10px
+}
+#accountStuff{
+  display:inline-block;
+  float:right;
+  margin-right:20px
+}
+
+#H3 {
+  height:100px;
+  position:absolute;
+  top:-25px
+}

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ecomm.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs &amp; more</title>
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css"/>
+  <link rel="stylesheet" href="css/contact_us.css">
+  <script src="js/contact_us.js"></script>
+</head>
+
+<body>
+ 
+  <!-- Main body -->
+
+  <header>
+    <a id="nav-top"></a>
+
+    <div id="nav-belt">
+      <div class="nav-left">
+        <div id="nav-logo" style="font-family: sans-serif;">
+          <h3 style="color: white " ><a href="index.html"><img src="img/logo.jpg" alt=""> E-COMM </a></h3>
+        </div>
+      </div>
+      <div class="nav-right">
+        <div id="nav-holiday">
+          <a href="#"></a>
+        </div>
+      </div>
+      <div class="nav-fill">
+        <div id="nav-search">
+          <form>
+            <div class="nav-left">
+              <span class="nav-search-label">All</span>
+              <i class="fa fa-caret-down" aria-hidden="true"></i>
+              <select id="nav-search-select">
+                <option selected="selected" value="aps">All Departments</option>
+               
+                <option value="software">Software</option>
+                <option value="sporting">Sports &amp; Outdoors</option>
+                <option value="tools">Tools &amp; Home Improvement</option>
+                <option value="toys-and-games">Toys &amp; Games</option>
+                <option value="vehicles">Vehicles</option>
+                <option value="videogames">Video Games</option>
+                <option value="wine">Wine</option>
+              </select>
+            </div>
+            <div class="nav-right">
+              <i class="fa fa-search" aria-hidden="true"></i>
+              <input type="submit">
+            </div>
+            <div class="nav-fill">
+              <input type="text" autocomplete="off">
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <nav id="nav-main">
+      <div class="nav-left">
+        <div class="nav-shop">
+          <a class="nav-a" href="#">
+            Departments
+            <i class="fa fa-caret-down" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+      <div class="nav-right">
+        <a class="nav-a" href="#">
+          <span>EN</span>
+          <i class="fa fa-globe" aria-hidden="true"></i>
+          <i class="fa fa-caret-down" aria-hidden="true"></i>
+        </a>
+
+        <a class="nav-a" href="sign_in.html">
+          <span>Hello. Sign in</span>
+          Accounts &amp; Lists
+          <i class="fa fa-caret-down" aria-hidden="true"></i>
+        </a>
+
+        <a class="nav-a" href="#">
+          Orders
+        </a>
+
+        <a class="nav-a" href="#">
+         
+          <i class="fa fa-caret-down" aria-hidden="true"></i>
+        </a>
+
+        <a class="nav-a cart" href="cart.html">
+          <span>0</span>
+          Cart
+        </a>
+      </div>
+      <div class="nav-fill">
+        <ul>
+          <li><a href="index.html">Your ecomm.com</a></li>
+         
+          <li><a href="shirt.html">shirts</a></li>
+          <li><a href="camera.html">camera</a></li>
+          <li><a href="about.html">About Us</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+<div class="wrapper">
+  <h2>Contact us</h2>
+  <div id="error_message"></div>
+  <form id="myform" onsubmit="return validate();">
+    <div class="input_field">
+        <input type="text" placeholder="Name" id="name">
+    </div>
+    <div class="input_field">
+        <input type="text" placeholder="Subject" id="subject">
+    </div>
+    <div class="input_field">
+        <input type="text" placeholder="Phone" id="phone">
+    </div>
+    <div class="input_field">
+        <input type="text" placeholder="Email" id="email">
+    </div>
+    <div class="input_field">
+        <textarea placeholder="Message" id="message"></textarea>
+    </div>
+    <div class="btn1">
+        <input type="submit">
+    </div>
+  </form>
+</div>
+
+
+
+
+
+</body>
+</html>
